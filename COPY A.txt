@@ -1,0 +1,45 @@
+
+
+<!NIKE Copy A  html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code - Copy A Vietnam</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        #qrcode {
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code - Copy A Vietnam</h1>
+    <div id="qrcode"></div>
+    <p>This QR Code represents Copy A made in Vietnam.</p>
+    <script>
+        // محتوى الكود
+        const qrContent = "105605089";
+       
+        // إنشاء QR Code
+        const qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: qrContent,
+            width: 200,
+            height: 200,
+        });
+    </script>
+</body>
+</html>
+
